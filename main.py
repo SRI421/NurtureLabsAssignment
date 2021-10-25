@@ -16,7 +16,7 @@ app = Flask('app')
 uid=None
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Thank you Nurturelabs. I completed this assignment given by you and deployed in heroku and saved repository in github'
 
 @app.route('/admin/advisor/', methods=['POST'])
 def admin():
