@@ -4,7 +4,7 @@ completed my assignement using python-flask as framework.
 used mongodb for databases.
 used json format.
 
-Deployed in heroku and tested using postman. Screenshots of postman is also uploaded.
+Deployed in heroku https://srikanthbs.herokuapp.com/ and tested using postman. Screenshots of postman is also uploaded.
 
 And also deployed in repl.it.
 
