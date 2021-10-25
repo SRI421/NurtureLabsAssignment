@@ -2,4 +2,3 @@ flask
 pymongo
 dnspython
 python_jwt
-os
