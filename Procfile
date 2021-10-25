@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT nassignment:app
+web: gunicorn  nassignment:app
