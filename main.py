@@ -77,7 +77,6 @@ def login():
             for i in rows:
                 if i['email']==email and i['password']==password:
                     id=i['id']
-                    session['id']=email
                     return jsonify({"status":"200_OK", "body":{"token":token,"userid":id}})
             
             return jsonify({"status":"401_AUTHENTICATION_ERROR"})
