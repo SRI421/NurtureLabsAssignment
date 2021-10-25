@@ -30,3 +30,28 @@ json request example:
 }
 
 3. user: login
+https://srikanthbs.herokuapp.com/user/login/
+{
+    "email":"john@gmail.com",
+    "password":"sri974213"
+}
+
+4. user: list of advisor
+https://srikanthbs.herokuapp.com/user/<userid>/advisor
+eg:-
+https://srikanthbs.herokuapp.com/user/john14/advisor
+
+    
+5. user: book call with an advisor
+https://srikanthbs.herokuapp.com/user/<userid>/advisor/<advisorid>
+eg:-
+https://srikanthbs.herokuapp.com/user/john14/advisor/sri3   
+
+{
+    "booking_time":"2021-10-25 15:12:30"
+}
+
+6. user: get all the booked calls
+https://srikanthbs.herokuapp.com/user/<userid>/advisor/booking/
+eg:
+https://srikanthbs.herokuapp.com/user/john14/advisor/booking/
