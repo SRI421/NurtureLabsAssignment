@@ -37,13 +37,13 @@ https://srikanthbs.herokuapp.com/user/login/
 }
 
 4. user: list of advisor
-https://srikanthbs.herokuapp.com/user/<userid>/advisor
+https://srikanthbs.herokuapp.com/user/userid/advisor
 eg:-
 https://srikanthbs.herokuapp.com/user/john14/advisor
 
     
 5. user: book call with an advisor
-https://srikanthbs.herokuapp.com/user/<userid>/advisor/<advisorid>
+https://srikanthbs.herokuapp.com/user/userid/advisor/<advisorid>
 eg:-
 https://srikanthbs.herokuapp.com/user/john14/advisor/sri3   
 
@@ -52,6 +52,6 @@ https://srikanthbs.herokuapp.com/user/john14/advisor/sri3
 }
 
 6. user: get all the booked calls
-https://srikanthbs.herokuapp.com/user/<userid>/advisor/booking/
+https://srikanthbs.herokuapp.com/user/userid/advisor/booking/
 eg:
 https://srikanthbs.herokuapp.com/user/john14/advisor/booking/
