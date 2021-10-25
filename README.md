@@ -11,7 +11,7 @@ And also deployed in repl.it.
 API'S documentation
 
 1. admin: add an advisor
-https://srikanthbs.herokuapp.com/admin/advisor/
+    https://srikanthbs.herokuapp.com/admin/advisor/
 
 json request example: 
 {
@@ -20,7 +20,7 @@ json request example:
 }
 
 2. user: register
-https://srikanthbs.herokuapp.com/user/register/
+    https://srikanthbs.herokuapp.com/user/register/
 
 json request example:
 {
