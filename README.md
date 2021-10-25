@@ -13,21 +13,21 @@ API'S documentation
 1. admin: add an advisor
     https://srikanthbs.herokuapp.com/admin/advisor/
 
-json request example: 
-{
-    "advisor_name":"xyz",
-    "advisor_photo_url":"/pics/xyz.png"
-}
+    json request example: 
+    {
+        "advisor_name":"xyz",
+        "advisor_photo_url":"/pics/xyz.png"
+    }
 
 2. user: register
     https://srikanthbs.herokuapp.com/user/register/
 
-json request example:
-{
-    "name":"ppp",
-    "email":"ppp@gmail.com",
-    "password":"sri974213"
-}
+    json request example:
+    {
+        "name":"ppp",
+        "email":"ppp@gmail.com",
+        "password":"sri974213"
+    }
 
 3. user: login
 https://srikanthbs.herokuapp.com/user/login/
@@ -46,10 +46,10 @@ https://srikanthbs.herokuapp.com/user/john14/advisor
 https://srikanthbs.herokuapp.com/user/userid/advisor/<advisorid>
 eg:-
 https://srikanthbs.herokuapp.com/user/john14/advisor/sri3   
-
-{
-    "booking_time":"2021-10-25 15:12:30"
-}
+    json request example:
+    {
+        "booking_time":"2021-10-25 15:12:30"
+    }
 
 6. user: get all the booked calls
 https://srikanthbs.herokuapp.com/user/userid/advisor/booking/
